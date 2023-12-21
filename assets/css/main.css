@@ -319,6 +319,10 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p {
 		margin-left: 2%;
 	}
 
+	.item:hover {
+		opacity: 0.5;
+	}
+
 	.listeJeux{
 		width: 10em;
 		height: 8em;
