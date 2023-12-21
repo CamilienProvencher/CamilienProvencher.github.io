@@ -434,4 +434,33 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p {
 	  .footer a{
 		padding: 0.5em;
 	}
+
+	.button-container {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 10px; /* Espacement horizontal entre les boutons */
+		justify-content: center;
+	  }
+	  
+	  .button {
+		background-color: #282828;
+		color: #fff;
+		padding: 0.5em;
+		border-radius: 0.5em;
+		text-decoration: none;
+		margin-bottom: 10px;
+	  }
+
+	.buttonCV{
+		background-color: #dadada;
+		color: #282828;
+		padding: 0.2em;
+		border-radius: 0.5em;
+		text-decoration: none;
+	}
+
+	.telecharger{
+		padding: 0;
+		margin: 0;
+	}
 	
