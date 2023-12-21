@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
-@import url("fontawesome-all.min.css");
 
 /*
 	Miniport by HTML5 UP
@@ -115,7 +114,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p {
 	}
 
 	header {
-		margin: 0 0 3em 0;
+		margin: 0 0 1em 0;
 	}
 
 		header > p {
@@ -240,7 +239,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p {
 		#top .image {
 			border-radius: 100%;
 			width: 20em;
-			height: 20em;
+			height: 15em;
 			margin: 0;
 		}
 
@@ -293,4 +292,146 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p {
 		padding: 16px;
 		margin-left: 5em;
 		margin-right: 5em;
+		font-style: italic;
 	}
+
+	.mesProjets{
+		text-align: center;
+		padding: 16px;
+		margin-left: 5em;
+		margin-right: 5em;
+		margin-bottom: 1em;
+	}
+
+	.box{
+		display: flex;
+		align-items: center;
+		margin-left: 5em;
+		margin-right: 5em;
+	}
+
+	.item {
+		flex-grow: 1;
+		list-style: none;
+	  }
+	  
+	.item + .item {
+		margin-left: 2%;
+	}
+
+	.listeJeux{
+		width: 10em;
+		height: 8em;
+		border-radius: 1em;
+		object-fit:cover;
+	}
+
+	.projet{
+		text-align: center;
+		padding: 16px;
+		margin-left: 5em;
+		margin-right: 5em;
+		margin-bottom: 1em;
+	}
+
+	.projet i{
+		font-weight: bold;
+
+	}
+
+	.projet {
+		display: flex;
+		align-items: center;
+		/* margin-bottom: 30px; */
+		border-top: #282828 solid 2px;
+	  }
+	  
+	  .projet h3,
+	  .projet p,
+	  .projet i {
+		flex: 1;
+		width: 100%;
+	  }
+	  
+	  .projet p:last-child {
+		margin-bottom: 0;
+	  }
+	  
+	  .projet img {
+		width: auto;
+		height: auto;
+		max-width: 30em; /* Ajustez la largeur selon vos préférences */
+		max-height: 20em;;
+		margin-left: 20px;
+		border-radius: 1em;
+		object-fit:cover;
+
+	  }
+
+	  .commentaire{
+		font-size: 0.8em;
+		line-height: 1.2em;
+	  }
+
+	  .image{
+		align-items: center;
+		width: 30em;
+	  }
+
+	  .aPropos{
+		padding: 3em;
+		border-top:#282828 solid 2px;
+		text-align: center;
+		list-style: none;
+	  }
+
+	  .aPropos li{
+		display: inline-block;
+		padding-left: 0;
+		margin-left: 0;
+		list-type: none;
+	}
+
+	.button {
+		background-color: #282828;
+		color: #fff;
+		padding: 0.5em;
+		border-radius: 0.5em;
+		text-decoration: none;
+	  }
+	  
+	  .button:hover {
+		background-color: #383838;
+		color: #fff; /* Couleur du texte au survol */
+		text-decoration: none; /* Décoration du texte au survol */
+	  }
+	  
+	  .button:active {
+		background-color: #383838;
+		color: #fff; /* Couleur du texte au clic */
+		text-decoration: none; /* Décoration du texte au clic */
+	  }
+
+	  .contact{
+		padding: 3em;
+		border-top:#282828 solid 2px;
+		text-align: center;
+		list-style: none;
+	  }
+
+	.footer{
+		text-align: center;
+		list-style: none;
+	  }
+
+	  .footer li{
+		display: inline-block;
+		padding-left: 0;
+		margin-left: 0;
+		list-type: none;
+	  }
+
+	  .footer a{
+		padding: 0.5em;
+	}
+	
